@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+requires-python = ">=3.11.3"
+
+name = "xy_systemd"
+
+authors = [{ name = "余洋", email = "yuyangit.0515@qq.com" }]
+description = "xy_systemd 模块"
+
+dynamic = ["version"]
+
+readme = "README.md"
+
+classifiers = ["Programming Language :: Python :: 3"]
+
+dependencies = ["importlib_resources"]
+
+[project.scripts]
+xy_systemd = "xy_systemd.execute.Main:main"
+
+[tool.setuptools.packages.find]
+where = ["./"]
+include = ["xy_systemd"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }
