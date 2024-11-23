@@ -13,7 +13,7 @@
 
 ## Description
 
-xy-web-service Service settings module.
+systemd tools.
 
 ## Source Code Repositories
 

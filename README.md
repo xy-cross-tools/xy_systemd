@@ -13,7 +13,7 @@
 
 ## 说明
 
-xy-web-service服务设置模块.
+systemd工具.
 
 ## 源码仓库
 

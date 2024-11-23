@@ -13,7 +13,7 @@
 
 ## 說明
 
-xy-web-service服務設定模組。
+systemd工具.
 
 ## 程式碼庫
 
